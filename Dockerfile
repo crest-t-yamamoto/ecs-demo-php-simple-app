@@ -5,6 +5,7 @@ RUN yum install -y \
     curl \
     httpd \
     php \
+    amazon-ssm-agent \
  && ln -s /usr/sbin/httpd /usr/sbin/apache2
 
 # Install app
